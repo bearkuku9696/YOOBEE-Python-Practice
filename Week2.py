@@ -8,11 +8,11 @@ class student:
 
 
     def print(self):
-        print("age:" + self.age + ", name:" + self.name + " ,subject:" + self.subject)
+        print(f"age: {self.age},  name: {self.name},   subject: {self.subject}")
 
 
 
 
-student = student("18", "Lee", "software engineer" )
+student = student(18, "Lee", "software engineer" )
 student.print()
 
