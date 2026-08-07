@@ -16,3 +16,10 @@ class student:
 student = student(18, "Lee", "software engineer" )
 student.print()
 
+
+
+
+number = 123.456
+template = "{0:10.2f}"
+template_format = template.format(number)
+print(float(template_format))
